@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === 'dev') {
 
 } else {
 
-    urlDB = 'mongodb+srv://innome:hHzdo2REoxH4v3dE@cluster0-ifysd.mongodb.net/test';
+    urlDB = process.env.MONGO_URI;
 
 }
 
